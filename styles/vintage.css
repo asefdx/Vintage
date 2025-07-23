@@ -20,7 +20,7 @@ img {
 }
 .container {
   max-width: 1280px;
-  margin: auto;
+  margin:0 auto;
 }
 .bg-primary {
   background-color: cadetblue;
@@ -71,13 +71,13 @@ img {
 }
 /* banner styles */
 .banner {
-  padding-bottom: 209px;
-  padding-top: 164px;
-  width: 1140px;
-  height: 461px;
-  padding: 0px;
+  
+  padding:60px 20px;
+  
   display: flex;
   align-items: center;
+  gap: 20px;
+  
 }
 .banner-title {
   font-size: 4.05rem;
@@ -89,10 +89,40 @@ img {
   font-size: 1.3rem;
   font-weight: 400;
 }
+.banner-img{
+    width: 100%;
+    
+}
 
 /* span tag styles banner section */
 .fresh-flowers {
   color: rgb(233, 90, 8);
 }
 
-/* responsive */
+/* responsive for mobile devices */
+@media screen and (max-width: 576px){
+     li:nth-child(1),
+     li:nth-child(2),
+     li:nth-child(3) {
+        display: none;
+    }
+    .banner{
+        
+        flex-direction:column-reverse ;
+        justify-content: center;
+        gap: 10px;
+        
+
+        
+    }
+    .banner-title{
+        font-size: 1.8rem;
+    }
+    .banner-description{
+        font-size: 0.8rem;
+    }
+
+
+
+
+}
