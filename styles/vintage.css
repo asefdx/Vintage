@@ -1,12 +1,14 @@
 /* common styles */
 
-.inter{
+.inter {
   font-family: "Inter", sans-serif;
-  
 }
 
 .noto-serif {
   font-family: "Noto Serif", serif;
+}
+body {
+  background-color: #f5f8ff;
 }
 * {
   box-sizing: border-box;
@@ -20,55 +22,77 @@ img {
   max-width: 1280px;
   margin: auto;
 }
+.bg-primary {
+  background-color: cadetblue;
+}
 /* nav styles */
-.nav-bar{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 30px;
-    
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
 }
-.nav-img{
-
-position: static;
-width: 135px;
-height: 82px;
-
+.nav-img {
+  position: static;
+  width: 135px;
+  height: 82px;
 }
-.nav-item{
-    list-style: none;
-    
+.nav-item {
+  list-style: none;
 }
-.nav-link{
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 400;
+.nav-link {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
 }
-.nav-items{
-    display: flex;
+.nav-items {
+  display: flex;
 
-    gap: 48px;
-padding: 22px 0px ;
-    align-items: center;
+  gap: 48px;
+  padding: 22px 0px;
+  align-items: center;
 }
-.home{
-/* Text/Medium/Bold */
-color: rgb(37, 36, 50);
+.home {
+  /* Text/Medium/Bold */
+  color: rgb(37, 36, 50);
 
-font-weight: 700;
-
+  font-weight: 700;
 }
-.common-span{
-    
-color: rgb(137, 135, 161);
+.common-span {
+  color: rgb(137, 135, 161);
 
-font-size: 16px;
-font-weight: 400;
-
+  font-size: 16px;
+  font-weight: 400;
 }
-.cart{
-    /* Text/Medium/Regular */
-color: rgb(0, 0, 0);
+.cart {
+  /* Text/Medium/Regular */
+  color: rgb(0, 0, 0);
 
-font-weight: 400;
-
+  font-weight: 400;
 }
+/* banner styles */
+.banner {
+  padding-bottom: 209px;
+  padding-top: 164px;
+  width: 1140px;
+  height: 461px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+.banner-title {
+  font-size: 4.05rem;
+  font-weight: 700;
+}
+.banner-description {
+  color: rgba(0, 0, 0, 0.5);
+
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+/* span tag styles banner section */
+.fresh-flowers {
+  color: rgb(233, 90, 8);
+}
+
+/* responsive */
