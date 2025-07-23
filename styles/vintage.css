@@ -22,9 +22,25 @@ img {
   max-width: 1280px;
   margin:0 auto;
 }
-.bg-primary {
-  background-color: cadetblue;
+.btn-primary{
+    font-size: 1rem;
+    font-weight: 600px;
+width: 270px;
+padding: 26px 50px;
+color: rgb(255, 255, 255);
+background-color: rgb(233, 90, 8);
+border: 0;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 30px 0px;
 }
+
+
 /* nav styles */
 .nav-bar {
   display: flex;
@@ -94,10 +110,65 @@ img {
     
 }
 
-/* span tag styles banner section */
+/* span tag styles banner section also part of common style*/
 .fresh-flowers {
   color: rgb(233, 90, 8);
 }
+/* our plant section styles */
+.our-plant{
+    padding: 10px;
+    padding-top: 100px;
+    
+    
+    text-align: center;
+    
+}
+.plant-section-title{
+    color: rgb(0, 0, 0);
+font-size: 3.2rem;
+font-weight: 700;
+
+}
+.plant-section-description{
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.5);
+    width: 888px;
+height: 54px;
+margin-left: 220px;
+   
+
+}
+/* card styles */
+.card-items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 50px;
+    
+    justify-items: center;
+    
+
+
+}
+.card-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(17, 17, 17);
+
+}
+
+.price-title{
+    color: rgb(17, 17, 17);
+font-size: 1.3rem;
+font-weight: 700;
+}
+
+
+
+
+
+
+
 
 /* responsive for mobile devices */
 @media screen and (max-width: 576px){
