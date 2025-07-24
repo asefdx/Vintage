@@ -25,7 +25,7 @@ img {
 .btn-primary{
     font-size: 1rem;
     font-weight: 600px;
-width: 270px;
+width: 100%;
 padding: 26px 50px;
 color: rgb(255, 255, 255);
 background-color: rgb(233, 90, 8);
@@ -90,6 +90,10 @@ margin: 30px 0px;
   align-items: center;
   gap: 20px;
   
+  
+}
+.banner-img{
+  width: 100%;
 }
 .banner-title {
   font-size: 4.05rem;
@@ -101,10 +105,7 @@ margin: 30px 0px;
   font-size: 1.3rem;
   font-weight: 400;
 }
-.banner-img{
-    width: 100%;
-    
-}
+
 
 /* span tag styles banner section also part of common style*/
 .fresh-flowers {
@@ -129,9 +130,12 @@ font-weight: 700;
     font-weight: 400;
     font-size: 1.6rem;
     color: rgba(0, 0, 0, 0.5);
-    width: 888px;
-height: 54px;
-margin-left: 220px;
+    max-width: 888px;
+     
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+
    
 
 }
@@ -139,6 +143,8 @@ margin-left: 220px;
 .card-items{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    
+    gap: 20px;
     padding: 50px;
     
     justify-items: center;
@@ -146,6 +152,8 @@ margin-left: 220px;
 
 
 }
+
+
 .card-title{
     font-size: 1.3rem;
     font-weight: 500;
@@ -158,6 +166,7 @@ margin-left: 220px;
 font-size: 1.3rem;
 font-weight: 700;
 }
+
 
 
 
@@ -182,14 +191,26 @@ font-weight: 700;
 
         
     }
-    .banner-title{
-        font-size: 1.8rem;
+    .banner-title {
+        font-size: 1.4rem;
     }
-    .banner-description{
-        font-size: 0.8rem;
+    .banner-description  {
+        font-size: 0.9rem;
     }
-
-
+   .plant-section-description{
+    margin-left: 15px;
+    font-size: 0.9rem;
+   }
+   .plant-section-title{
+    font-size:1.4rem ;
+   }
+   .card-items{
+      grid-template-columns: repeat(2,1fr);
+        
+        
+   }
+  
+    
 
 
 }
