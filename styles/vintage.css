@@ -168,6 +168,17 @@ font-size: 1.3rem;
 font-weight: 700;
 }
 /* plants-lover-section styles */
+.plants-lover-section {
+  position: relative;
+  
+}
+.badge{
+  width:17rem ;
+  height: 17rem;
+  position: relative;
+  left: 400px;
+  top: 150px;
+}
 .plant-lover-container{
   display: flex;
   align-items: center;
@@ -220,6 +231,7 @@ font-weight: 700;
       
     font-size: 1rem;
     font-weight: 600;
+    
 
  padding: 15px 25px;
 color: rgb(255, 255, 255);
@@ -256,6 +268,7 @@ border: 0;
       color: rgba(0, 0, 0, 0.5);
 font-size: 1.6rem;
 font-weight: 400;
+
 
 
 
@@ -303,7 +316,7 @@ font-weight: 400;
     margin-left: 15px;
     font-size: 0.9rem;
    }
-   .plant-section-title .plants-lover-title{
+   .plant-section-title {
     font-size:1.4rem ;
    }
    .card-items{
@@ -314,7 +327,12 @@ font-weight: 400;
    .btn-primary{
     font-size: 0.8rem;
    }
-   
+   .plants-lover-title{
+    font-size: 1.9rem;
+    padding-left: 20px;
+    padding-top: 30px;
+
+   }
 
 
 
@@ -322,6 +340,9 @@ font-weight: 400;
     flex-direction: column;
     
    
+  }
+  .badge{
+    display: none;
   }
   
 .join-section{
@@ -339,7 +360,7 @@ font-weight: 400;
   .join-section-button{
      font-size: 0.9rem;
     font-weight: 600;
-    border-radius: 2px;
+    
 
  padding: 5px 15px;
 
@@ -349,7 +370,7 @@ font-weight: 400;
   }
   .link-container{
     grid-template-columns: repeat(1,1fr);
-    margin-top: 10px;
+    margin-top: 25px;
   }
   .logo-container{
     margin-top: 10px;
